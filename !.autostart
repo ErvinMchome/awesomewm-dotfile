@@ -1,0 +1,6 @@
+
+#/bin/shnm-applet
+
+synclient TapButton3=2
+synclient TapButton2=3
+synclient TapButton1=1
