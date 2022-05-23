@@ -1,0 +1,15 @@
+/* Rofi config file */
+configuration {
+    font: "Source Sans Pro 12";
+    show-icons: true;
+    display-window: "Window";
+    display-drun: "Search";
+}
+
+//@theme "oxide"
+
+listview {
+    lines: 12;
+}@theme "/home/ervin/.config/rofi/themes/oxide.rasi"
+//@theme "/home/ervin/.config/rofi/themes/squared-nord.rasi"
+@theme "/home/ervin/.config/rofi/themes/simple-tokyonight.rasi"
