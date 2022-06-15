@@ -12,7 +12,7 @@
 sleep .5
 
 if ! pgrep -x polybar; then
-	polybar base &
+	polybar base & mon2
 else
 	pkill -USR1 polybar
 fi

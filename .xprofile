@@ -1,4 +1,6 @@
+nitrogen --restore &
+picom &
 ~/.autostart &
-/home/ervin/.config/polybar/launch.sh &
-nitrogen --restore &	
-picom
+~/.config/polybar/launch.sh &
+~/.config/polybar/playpause.sh
+
