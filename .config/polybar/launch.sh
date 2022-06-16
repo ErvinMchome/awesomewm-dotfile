@@ -1,21 +1,8 @@
-#!/usr/bin/env sh
-
-# Terminate already running bar instances
-# killall -q polybar
-
-# Wait until the processes have been shut down
-# while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
-
-# Launch bar1 and bar2
-#polybar base &
-
-sleep .5
-
-if ! pgrep -x polybar; then
-	polybar base & mon2
-else
-	pkill -USR1 polybar
-fi
-
-echo "Bars launched..."
-
+#!/bin/bash
+killall -q polybar
+while pgrep -u $UID -x polybar >/dev/nul; do sleep 1; done
+polybar --reload main -c $XDG_CONFIG_HOME/polybar/config &
+polybar --reload bottomleft -c $XDG_CONFIG_HOME/polybar/config &
+polybar --reload memory -c $XDG_CONFIG_HOME/polybar/config &
+#polybar --reload right -c $XDG_CONFIG_HOME/polybar/config &
+echo "Polybar Launched"
