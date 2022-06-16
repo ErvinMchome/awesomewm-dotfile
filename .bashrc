@@ -20,7 +20,7 @@ if (( UID != 0 )); then
     alias upd='sudo pacman -Suy'
     alias ins='sudo pacman -S '
     alias del='sudo pacman -R '
-    alias yay='yay -S '
+    alias ya='yay -S '
     alias netctl='sudo netctl'
 fi
 
