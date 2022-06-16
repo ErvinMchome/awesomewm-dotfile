@@ -1,3 +1,4 @@
-$XDG_CONFIG_HOME/polybar/launch.sh &
+#!/bin/bash
+.config/polybar/launch.sh &
 nitrogen --restore &	
 picom
