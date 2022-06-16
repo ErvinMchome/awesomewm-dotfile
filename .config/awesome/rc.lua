@@ -611,3 +611,6 @@ end)
 client.connect_signal("mouse::enter", function(c)
     c:activate { context = "mouse_enter", raise = false }
 end)
+
+-- Startup programs
+awful.util.spawn_with_shell("~/.config/awesome/autorun.sh")
