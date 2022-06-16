@@ -1,3 +1,6 @@
-awesome &
-xfce4-panel &
-xfsettingsd
+nitrogen --restore &
+picom &
+~/.autostart &
+~/.config/polybar/launch.sh &
+~/.config/polybar/playpause.sh
+
