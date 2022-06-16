@@ -512,7 +512,7 @@ ruled.client.connect_signal("request::rules", function()
     ruled.client.append_rule {
         id       = "floating",
         rule_any = {
-            instance = { "copyq", "rofi", "pinentry" },
+            instance = { "rofi", "pinentry" },
             class    = {
                 "Arandr", "Blueman-manager", "Gpick", "Kruler", "Sxiv",
                 "Tor Browser", "rofi", "Wpa_gui", "veromix", "xtightvncviewer",
