@@ -41,6 +41,8 @@ lxappearance
 m4
 make
 man-db
+mpv
+mpd
 mpc
 nano
 nemo
@@ -51,7 +53,6 @@ ntfs-3g
 pacman
 patch
 pavucontrol
-picom
 pkgconf
 polybar
 pulseaudio
