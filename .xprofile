@@ -9,6 +9,11 @@ export XDG_CONFIG_HOME="$HOME/.config"
 [ -d /usr/sbin ] && PATH="$PATH:/usr/sbin"
 [ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
 
+
+#запуск демона и панели
+xfce4-panel &
+xfsettingsd
+
 # restore the background
 nitrogen --restore &
 

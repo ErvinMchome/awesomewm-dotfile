@@ -86,3 +86,5 @@ xorg-server
 xorg-xinit
 youtube-dl
 zram-generator
+xfce4-panel
+xfce4-battery-plugin
