@@ -9,5 +9,7 @@ yay -S $(cat yaylist)
 
 
 в кису
+
+
 gsettings set org.nemo.desktop show-desktop-icons false &
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
