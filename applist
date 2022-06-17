@@ -88,3 +88,11 @@ youtube-dl
 zram-generator
 xfce4-panel
 xfce4-battery-plugin
+xfce4-notifyd
+xfce4-weather-plugin
+xfce4-timer-plugin
+xfce4-pulseaudio-plugin
+xfce4-netload-plugin
+xfce4-mpc-plugin
+xfce4-datetime-plugin
+xfce4-cpugraph-plugin
