@@ -12,7 +12,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 #запуск демона и панели
 xfce4-panel &
-xfsettingsd
+xfsettingsd &
 
 # restore the background
 nitrogen --restore &
