@@ -21,6 +21,7 @@ if (( UID != 0 )); then
     alias pac='sudo pacman -S '
     alias del='sudo pacman -Rs '
     alias ya='yay -S '
+    alias gitclone='git clone https://github.com/ervinmckeats/awesomewm-dotfile'
     alias netctl='sudo netctl'
 fi
 
