@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="background-alpha" type="uint" value="100"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="enter-opacity" type="uint" value="69"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="leave-opacity" type="uint" value="69"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="14"/>
+        <value type="int" value="3"/>
+        <value type="int" value="1"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="19"/>
+        <value type="int" value="12"/>
+        <value type="int" value="16"/>
+        <value type="int" value="2"/>
+        <value type="int" value="17"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="position" type="string" value="p=6;x=512;y=22"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="19"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.834233"/>
+        <value type="double" value="0.762700"/>
+        <value type="double" value="0.870000"/>
+        <value type="double" value="0.690000"/>
+      </property>
+      <property name="background-image" type="string" value="/home/ervin/Downloads/wallpapers/2fd9620006cca5e82fe9f8280e0d8df0.jpg"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="systray">
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="show-frame" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="size-max" type="uint" value="22"/>
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
+    </property>
+    <property name="plugin-9" type="string" value="clock">
+      <property name="digital-format" type="string" value="%a %b %d, %I:%M %p"/>
+      <property name="mode" type="uint" value="4"/>
+      <property name="show-frame" type="bool" value="true"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="timezone" type="string" value="Europe/Moscow"/>
+      <property name="flash-separators" type="bool" value="false"/>
+      <property name="show-seconds" type="bool" value="true"/>
+    </property>
+    <property name="plugin-1" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="include-all-monitors" type="bool" value="true"/>
+    </property>
+    <property name="plugin-2" type="string" value="cpugraph"/>
+    <property name="plugin-12" type="string" value="weather">
+      <property name="msl" type="int" value="8"/>
+      <property name="timezone" type="string" value="Europe/Moscow"/>
+      <property name="offset" type="string" value="+03:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="2"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="2"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/simplistic"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="location" type="empty">
+        <property name="name" type="string" value="St Petersburg, Russia"/>
+        <property name="latitude" type="string" value="59.898300"/>
+        <property name="longitude" type="string" value="30.261800"/>
+      </property>
+    </property>
+    <property name="plugin-14" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+    </property>
+    <property name="plugin-16" type="string" value="netload"/>
+    <property name="plugin-17" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    </property>
+    <property name="plugin-19" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>
