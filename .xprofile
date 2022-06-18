@@ -10,15 +10,18 @@ export XDG_CONFIG_HOME="$HOME/.config"
 [ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
 
 
+# start awesome
+#awesome &
+
+
 #запуск демона и панели
 xfce4-panel &
 xfsettingsd &
-
+~/.autostart &
+picom &
+ 
 # restore the background
 nitrogen --restore &
-
-# start compositor
-al-compositor --start &
 
 # keyring and polkit daemons
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
